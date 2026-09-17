@@ -380,17 +380,17 @@ html-ppt-visual-architect/
 - HTML 转 PPTX/PDF 需要单独的转换流程，转换后仍应重新做视觉 QA；
 - 页面允许使用图形化表达，但图形必须有语义责任，不能以装饰替代论证。
 
-### 13. 资源与许可证
+### 13. 许可与第三方资源
 
-本仓库当前未声明统一的开源许可证。公开发布前，请根据你的授权意图补充 <code>LICENSE</code> 文件，并确认使用的字体、图标、图片和其他第三方资源符合相应许可证。
+本仓库当前未附带统一的开源许可证。源文件、skill 规则和随附代码的复制、修改与再分发，请以作者另行发布的授权说明为准；使用本 skill 生成的 deck 中所涉及的字体、图标、图片和其他第三方资源，遵循其各自的许可证。
 
-如果 HTML deck 使用外部资源，请优先下载并本地化，记录来源、版本、许可证和使用边界，确保离线交付时行为可预期。
+如果生成的 HTML deck 使用第三方资源，使用者应确认其授权范围，并在需要时保留来源、版本、许可证和使用边界信息。这样可以让离线交付、二次编辑和公开展示的责任边界保持清晰。
 
-### 14. 作者
+### 14. 作者与反馈
 
-**圣婴**
+本项目由 **圣婴** 设计，致力于把逐页文案转化为具有真实视觉语义和专业阅读体验的 HTML 演示稿。
 
-欢迎通过 Issue 或 Pull Request 提交页面案例、内容覆盖问题、视觉语义问题、浏览器 QA 结果和改进建议。
+如果你在页面架构、内容覆盖、视觉语义或浏览器 QA 方面遇到问题，可以通过 GitHub Issue 分享页面背景、输入文案、运行环境和问题表现；成熟的改进也欢迎通过 Pull Request 提交。
 
 ---
 
@@ -744,15 +744,14 @@ This repository contains the agent skill, the HTML/CSS/JavaScript foundation, an
 - HTML-to-PPTX/PDF conversion requires a separate pipeline and a fresh visual QA pass;
 - Graphics are welcome only when they carry semantic responsibility rather than decorative surface.
 
-### 13. Assets and Licensing
+### 13. Licensing and Third-Party Assets
 
-This repository does not currently declare a single open-source license. Before public distribution, add a <code>LICENSE</code> file that matches your intended terms and verify that fonts, icons, images, and other third-party assets comply with their licenses.
+This repository currently does not include a unified open-source license. Copying, modifying, or redistributing the source files, skill rules, and bundled code is subject to the author’s applicable authorization terms. Fonts, icons, images, and other third-party assets used in generated decks remain subject to their respective licenses.
 
-When a deck uses external resources, prefer downloading and localizing them. Record source, version, license, and usage boundaries so offline delivery remains predictable.
+When a generated HTML deck uses third-party resources, the user is responsible for confirming the applicable rights and retaining source, version, license, and usage-boundary information when required. This keeps offline delivery, further editing, and public display clear and predictable.
 
-### 14. Author
+### 14. Author and Feedback
 
-**圣婴**
+Designed by **圣婴**, this project turns page-by-page copy into HTML presentations with meaningful visual semantics and a professional reading experience.
 
-Issues and Pull Requests are welcome for page examples, coverage problems, visual-semantic problems, browser QA findings, and workflow improvements.
-
+If you encounter page-architecture, content-coverage, visual-semantic, or browser-QA issues, open a GitHub Issue with the page context, source copy, runtime environment, and observed behavior. Mature improvements are also welcome through Pull Requests.
