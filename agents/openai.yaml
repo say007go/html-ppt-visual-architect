@@ -1,0 +1,5 @@
+interface:
+  display_name: "HTML PPT 视觉架构师"
+  short_description: "将逐页文字保真转化为高密度、视觉语义驱动的红色咨询级 HTML 演示稿"
+  brand_color: "#A61E2D"
+  default_prompt: "Use $html-ppt-visual-architect to preserve my page-by-page Chinese copy and turn it into a high-density red consulting-style HTML presentation. Derive each visual from its perceptual task and visual variables, combine visual grammars only when the content requires it, choose the graphic-text coupling strategy page by page, and avoid template, topology, card-grid, or table-like defaults."
